@@ -15,14 +15,13 @@ pipeline {
 
         stage('Check Python Environment') {
             steps {
-                bat 'python --version'
-                bat 'where python'
+                bat '"C:\\Users\\soura\\AppData\\Local\\Programs\\Python\\Python312\\python.exe" --version'
             }
         }
 
         stage('Create Python Environment') {
             steps {
-                bat 'python -m venv .venv'
+                bat '"C:\\Users\\soura\\AppData\\Local\\Programs\\Python\\Python312\\python.exe" -m venv .venv'
 
                 bat '.venv\\Scripts\\python.exe -m pip install --upgrade pip'
 
