@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Test reports
+.pytest_cache/
+allure-results/
+allure-report/
+reports/
+test-results/
+results/
+*.log
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Browser and driver binaries
+chromedriver.exe
+msedgedriver.exe
+
+# Temporary files
+*.tmp

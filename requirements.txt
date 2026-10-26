@@ -1,0 +1,7 @@
+pytest>=8.0
+selenium>=4.20
+webdriver-manager>=4.0
+openpyxl>=3.1
+requests>=2.31
+pytest-html>=4.1
+allure-pytest>=2.13
